@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "518861448603",
+    "firebase_url": "https://laundry-d8469.firebaseio.com",
+    "project_id": "laundry-d8469",
+    "storage_bucket": "laundry-d8469.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518861448603:android:4d73338bf098d963",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.laundry2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518861448603-muaoh2i7ahmp7odsesifqu70reo7ktv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBxZ-upH1yUnvpkbOEhk4jqfD7msAHUMk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

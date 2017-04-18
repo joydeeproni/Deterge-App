@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.laundry2">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".Laundry2"
+        android:allowBackup="true"
+        android:icon="@drawable/laundry"
+        android:label="Deterge"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserPage"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RateList"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_rate_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OngoingOrders"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_ongoing_orders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MonthlyBills"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_monthly_bills"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".History"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_history"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Account"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_account"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Settings"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Information"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_information"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Place_Order"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_place__order"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Register" />
+        <activity
+            android:name=".Account_Edit"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_account__edit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".place_order2" />
+        <activity
+            android:name=".OrderNotifications"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_order_notifications"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".orderConfirmed"
+            android:label="Order Placed"></activity>
+    </application>
+
+</manifest>
